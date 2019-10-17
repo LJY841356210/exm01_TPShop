@@ -26,7 +26,7 @@ suite.addTest(unittest.makeSuite(TestUser))
 #  单独运行:项目绝对路径 C:\Users\home\Desktop\软件测试\就业班\6_接口测试\2_daima\exm01_TPShop
 #  先运行TestTPShopUser.py再运行此文件  项目绝对路径 C:\Users\home\Desktop\软件测试\就业班\6_接口测试\2_daima\exm01_TPShop\exm01_TPShop
 
-file_to=PRO_PATH+"/report/report"+time.strftime("%Y%m%d%H%M%S")+".html"
+file_to=PRO_PATH+"/report/report"+".html"
 print(PRO_PATH)
 print(file_to)
 # 打开文件流,工具执行套件,并将结果写出
